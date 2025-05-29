@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div id="container">
+            <div id="top-container">
+                <h1>Pokémon Type Identifier!</h1>
+                <h4>A simple mini project by <span style="background-color: rgb(5, 246, 194);"><a href="https://github.com/OriontDev" target="_blank">OriontDev</a></span> - Data from : <a href="https://pokeapi.co/" target="_blank">pokeapi.co</a></h4>
+            </div>
+            <br>
+
+            <div id="searchBar">
+                <input type="text" placeholder="Enter pokemon name" id="pokemonName">
+                <button id="fetchButton" onclick="fetchPokemon()">Fetch Pokemon</button>
+            </div>
+            <br>
+
+            <div id="pokemonInfo">
+                <img src="" alt="Pokemon image" id="pokemonSprite">
+                <div id="pokemonDesc">
+                    <h1 id="pokemonTypeDesc">Type: </h1>
+                </div>
+            </div>
+        </div>
+        <h1 id="copyright">© Pokémon belongs to Nintendo/Game Freak. This is a fan project</h1>
+        <script src="index.js"></script>
+    </body>
+</html>
